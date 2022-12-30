@@ -1,0 +1,5 @@
+Flask
+Flask-Cors
+flask-sqlalchemy
+azure-storage-blob
+azure-identity

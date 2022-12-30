@@ -1,0 +1,191 @@
+html {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: lightblue;
+    background-image: url("monstera2.png");
+}
+
+body{
+    margin: 0;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    font-family: sans-serif;
+    border-width: 1px;
+    min-height: 100vh;
+  border-style: solid;
+  border-color: black;
+  background-color: rgba(100, 190, 200, 0.6);
+}
+.content {
+    display: flex;
+    height: 100vh;
+    width: 68.7vw;
+    margin: 0 auto;
+    display: inline-block;
+    font-size: 20px;
+    overflow: auto;
+    border: 1px solid rgb(16, 6, 6);
+}
+
+.model_info {
+    vertical-align: middle;
+    margin-left: 30%;
+}
+
+
+.charact label {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.charact div {
+    font-size: 30px;
+}
+
+.btn_home
+{
+    padding-left: 200px;
+    height: 50px;  
+    width: 30px;
+}
+
+.text_header
+{
+    padding-left: 270px;
+}
+
+.header_home div
+{
+    font-size: 25px;
+    display: inline-block;
+}
+
+
+.model_form {
+    height: 10vh;
+    width: 100%;
+    display: inline-block;
+    font-size: 20px;
+}
+.model_form div  {
+    padding: 5px;
+}
+
+.model_form label{
+    display:inline-block;
+    width:230px;
+}
+
+.jsons
+{
+    margin-right: 500px;
+    outline-style: solid;
+}
+
+#wrapper div{
+    margin-left: 230px;
+}
+
+#mult
+{
+    word-wrap: break-word;
+    word-break: break-word;
+    height: 50px;
+    width: 100px;
+}
+
+
+.btn_new
+{
+    margin-left: 63.7rem;
+    height: 20px;  
+    width: 20px;
+    border: 0;
+}
+
+ul{
+    padding: 15px;
+}
+
+.cont
+{
+    vertical-align: middle;
+    text-align: center;
+}
+.pred_table, .results {
+    margin-top: 40px;
+}
+
+.pred_table
+{
+    margin-left: 10vw;
+    margin-right: 10vw;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.btns .btn 
+{
+    width: 150px;
+    height: 40px;
+}
+
+.drag_form
+{
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+
+}
+
+.drag_form img{
+    height: 31rem;
+    width: 21rem;
+}
+
+
+h1, img{
+    text-align: center;
+}
+
+.predict_img
+{
+    text-align: center;
+}
+
+#sbmt_button
+{
+    background-color: #64e60e;
+        height: 40px;
+        width: 120px;
+}
+
+.prediction_table
+{
+    text-align: center;
+    border: 1px solid rgb(5, 5, 5);
+}
+
+
+
+table, td, th {
+    border: 1px solid rgb(5, 5, 5);
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    height: 30px;
+}
+
+td {
+    text-align: center;
+    padding: 5px;
+}
+
+#content {
+    width: 70%;
+}
